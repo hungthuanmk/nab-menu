@@ -7,6 +7,9 @@ Author: Nguyen Phan Hung Thuan
 Desktop
 ![Desktop demo](./img/1.png)
 
+[Live demo](https://3nxjg.csb.app/)
+
+
 <iframe src="https://codesandbox.io/embed/nab-menu-3nxjg?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="nab-menu"

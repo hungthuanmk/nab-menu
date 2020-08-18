@@ -11,7 +11,6 @@ $button-height: 36px;
     box-sizing: border-box;
 }
 
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -22,34 +21,24 @@ $button-height: 36px;
 }
 
 .menu {
-    // background-color: red;
     position: absolute;
     left: 100px;
     top: 100px;
-    // width: 100%;
-    // height: 100%;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 
-    
     .button {
         position: absolute;
-
         width: $button-width;
         height: $button-height;
-
         cursor: pointer;
-
         background-color: $cl-primary;
         border: 1px solid rgba(0, 0, 0, 0.06);
-
         box-shadow: 0px 1.5px 2px rgba(0, 0, 0, 0.13);
         border-radius: 3px;
-
         text-align: center;
-
         font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
@@ -64,15 +53,10 @@ $button-height: 36px;
         position: absolute;
         top: $button-height + 1px;
         padding-bottom: 8px;
-
-        // height: 220px;
         width: 225px;
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
-        // background: red;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14),
             0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
         border-radius: 2px;
@@ -83,13 +67,8 @@ $button-height: 36px;
             font-weight: normal;
             font-size: 14px;
             line-height: 16px;
-            /* identical to box height, or 114% */
-
             display: flex;
             align-items: center;
-
-            /* $cl-black54 */
-
             color: $cl-black54;
             margin: 16px;
         }
@@ -99,15 +78,12 @@ $button-height: 36px;
             height: 1px;
             margin: 8px 0;
             width: 100%;
-            // margin: 16px;
         }
         .item {
             position: relative;
             display: flex;
             flex-direction: row;
-            // margin: 16px;
             height: 48px;
-
             transition-duration: 80ms;
 
             &:hover {
@@ -121,7 +97,6 @@ $button-height: 36px;
 
             .icon {
                 margin-left: 17px;
-
                 width: 28px;
                 display: flex;
                 align-items: center;
@@ -139,8 +114,6 @@ $button-height: 36px;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height, or 150% */
-
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;

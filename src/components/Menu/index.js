@@ -30,11 +30,12 @@ class Menu extends Component {
             <div class="menu">
                 <div
                     class="button"
-                    onClick={() =>
+                    onClick={() => {
                         this.setState({
                             showingMenu: !this.state.showingMenu,
-                        })
-                    }
+                        });
+                        if (this.props.onMenuOpened) this.props.onMenuOpened();
+                    }}
                 >
                     {this.props.buttonText}
                 </div>

@@ -27,7 +27,7 @@ function App() {
                 />
                 <Selection
                     text="Rotate"
-                    onClick={() => alert("Rotate")}
+                    // onClick={() => alert("Rotate")}
                     svgIcon={
                         <svg fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path

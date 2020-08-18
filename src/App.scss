@@ -1,0 +1,26 @@
+$mobile-width: 480px;
+// $tablet-width: 768px;
+// $desktop-width: 1024px;
+@mixin mobile {
+    @media (min-width: 0) and (max-width: #{$mobile-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+
+.continuous {
+    position: relative;
+}
+
+.menu-container {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    background: red;
+}
